@@ -98,6 +98,36 @@
                 <img src="../assets/images/phone.webp" alt="">
             </div>
         </div>
+        <div class="price-section">
+            <div class="price-section__header_container">
+                <div class="price-section__header_item active">
+                    Most Popular
+                </div>
+                <div class="price-section__header_item">
+                    Top Movers
+                </div>
+            </div>
+            <div class="price-section__list">
+                <div class="price-section__list_header">
+                    <div class="price-section__list_title">
+                        Asset
+                    </div>
+                    <div class="price-section__list_title">
+                        Last Price
+                    </div>
+                    <div class="price-section__list_title">
+                        24hr Change
+                    </div>
+                    <div class="price-section__list_title">
+                        Market Cap
+                    </div>
+                </div>
+                <div class="price-section-list__container">
+
+                </div>
+                
+            </div>
+        </div>
 
     </div>
 </template>
@@ -116,5 +146,6 @@ export default {
 </script>
 <style scoped>
 @import url(../assets/css/cta-section.css);
+@import url(../assets/css/price-section.css);
 
 </style>
