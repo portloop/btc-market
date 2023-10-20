@@ -136,6 +136,8 @@ margin-bottom: 30px;
     }
 }
 
+/* // Inital */
+
 @media screen and (max-width: 445px) {
     .cta-section-t__title {
         font-size: 34px;
